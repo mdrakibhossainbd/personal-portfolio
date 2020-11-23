@@ -157,7 +157,7 @@ const ProjectsTimeline = () => {
 
           {/* Project: 2  */}
           <ImageEvent
-            date="15/09/2020"
+            date="20/09/2020"
             className="text-center"
             text="Doctors Portal"
             src={project2}
@@ -255,13 +255,13 @@ const ProjectsTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="#"
+                  href="https://github.com/mdrakibhossainbd/doctors-portal-project"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="#"
+                  href="https://doctors-portal-e49b5.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -300,10 +300,10 @@ const ProjectsTimeline = () => {
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Showing details of single food item</li>
-                          <li>Fully functional system</li>
+                          <li>Authenticated users can order foods.</li>
+                          <li>Stripe payment method is available for testing purposes only</li>
 
-                          <li>Online payment system</li>
+                          <li>Automated calculation and functionalities are added for the cart</li>
 
 
                         </ul>
@@ -374,13 +374,13 @@ const ProjectsTimeline = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 
                 <UrlButton
-                  href="#"
+                  href="https://github.com/mdrakibhossainbd/red-onion-project"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="#"
+                  href="https://red-onion-project-c2459.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -392,7 +392,7 @@ const ProjectsTimeline = () => {
 
            {/* Project: 4 */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="20/09/2020"
             className="text-center"
             text="Ema-John Website"
@@ -510,12 +510,12 @@ const ProjectsTimeline = () => {
                 
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
           {/* Project: projects 5 */}
 
           <ImageEvent
-            date="05/10/2020"
+            date="05/09/2020"
             className="text-center"
             text="Travel Guru"
             src={project7}
@@ -542,6 +542,7 @@ const ProjectsTimeline = () => {
                         <ul className="list-styles pt-1">
                         <li>Showing destination details for new user  </li>
                           <li>Available hotel booking for registered user</li>
+                          <li>Authenticated users can choose a place</li>
                           <li>Google map integrated</li>
                         </ul>
                         <hr />
@@ -619,7 +620,7 @@ const ProjectsTimeline = () => {
           {/* Project: 6   Power X-Gym*/}
 
           <ImageEvent
-            date="30/09/2020"
+            date="24/11/2020"
             className="text-center"
             text="Power X-Gym"
             src={project6}
@@ -728,7 +729,7 @@ const ProjectsTimeline = () => {
           {/* Project: 7 Volunteer Network*/}
 
           <ImageEvent
-            date="30/09/2020"
+            date="15/10/2020"
             className="text-center"
             text="Volunteer Network"
             src={project10}
@@ -823,14 +824,14 @@ const ProjectsTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
               <UrlButton
-                  href="https://github.com/mdrakibhossainbd/assignment
+                  href="https://github.com/mdrakibhossainbd/volenteer-network-project
                   "
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
               <UrlButton
-                  href="https://determined-bohr-502df7.netlify.app/"
+                  href="https://volunteer-network-cb543.web.app/"
                   target="_blank"
                 >
                   SEE LIVE
@@ -847,7 +848,7 @@ const ProjectsTimeline = () => {
             {/* Project: 8 Athena Power Project*/}
 
           <ImageEvent
-            date="30/09/2020"
+            date="17/11/2020"
             className="text-center"
             text="Athena Power Project"
             src={project3}
@@ -964,7 +965,7 @@ const ProjectsTimeline = () => {
           {/* Project: 9*/}
 
           <ImageEvent
-            date="30/09/2020"
+            date="13/06/2020"
             className="text-center"
             text="Pin Matcher"
             src={project8}
@@ -1057,7 +1058,7 @@ const ProjectsTimeline = () => {
            {/* Project: 10*/}
 
           <ImageEvent
-            date="30/09/2020"
+            date="03/04/2020"
             className="text-center"
             text="Calcunlator"
             src={project9}

@@ -8,7 +8,6 @@ const Contact = () => {
 
   function sendEmail(e) {
     e.preventDefault();
-    // template_rk27c8v  user_60DE0kYLxZkMSATYmqDR3
   
      emailjs.sendForm('gmail', 'abc', e.target, 'abc')   
     .then((result) => {
@@ -47,13 +46,13 @@ const Contact = () => {
             <Col className="d-flex justify-content-center flex-wrap">
               <div className="m-2">
                 <a href="mdrakibhossainbd75@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-danger" title="marjiazaman@gmail.com">
+                  <Button variant="outline-danger" title="mdrakibhossainbd75@gmail.com">
                     <i className="fas fa-envelope-square"></i> Email Me
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/rakib-hossain-425725a1/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-primary" title="Visit my LinkenIn">
                     <i className="fab fa-linkedin"></i> LinkedIn
                   </Button>
@@ -61,7 +60,7 @@ const Contact = () => {
               </div>
               
               <div className="m-2">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mdrakibhossainbd/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-dark" title="My other projects">
                     <i className="fab fa-github-square"></i> GitHub
                   </Button>
@@ -69,14 +68,14 @@ const Contact = () => {
               </div>
               
               <div className="m-2">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://mdrakibhossainbd75.medium.com/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-info" title="Let's check some blogs!">
                     <i className="fab fa-medium"></i> Medium.com
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="3" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/rakib.hossain.739" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-primary" title="Say hello on FB">
                     <i className="fab fa-facebook-square"></i> FaceBook
                   </Button>
