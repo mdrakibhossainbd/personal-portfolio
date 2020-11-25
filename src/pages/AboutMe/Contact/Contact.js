@@ -9,13 +9,14 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
   
-     emailjs.sendForm('gmail', 'abc', e.target, 'abc')   
+     emailjs.sendForm('gmail', 'template_5w8y5ir', e.target, 'user_4HxcALaX05a5XrfPqgId7')   
     .then((result) => {
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
     });
     e.target.reset()
+    
 }
 
     return (
