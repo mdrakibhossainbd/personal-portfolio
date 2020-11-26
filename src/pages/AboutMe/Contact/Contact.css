@@ -14,8 +14,12 @@
     color: #ffffff;
   }
 
+  /* #504c80 */
   .contact-form{
     width: 80%;
-    background-color: #504c80;
+    background-color: #1BD5BE;
     margin-bottom: 10%;
+    border: none;
+    border-radius:20px 20px 20px 20px;
+    background-image: linear-gradient(to left, #159279, #0f92c5);
   }
