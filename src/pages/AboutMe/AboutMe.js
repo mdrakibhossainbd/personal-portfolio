@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import './AboutMe.css';
-import resume from '../../assets/rakibResumeFinal.pdf';
+import resume from '../../assets/mdrakibhossain_Resume2.pdf';
 
 const AboutMe = () => {
     return (

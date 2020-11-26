@@ -16,7 +16,7 @@ const MyNavbar = () => {
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#blogs">Blogs</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
-                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1VF4GcmpcTqQ6UXakt0WgbLibL3vuHE4C/view?usp=sharing" class="text-white"><button type="button" class="btn btn-outline-info">My Resume</button></a>
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1uYk1OFDR8lJtK6norqIhq4lFVZIi01qY/view?usp=sharing" class="text-white"><button type="button" class="btn btn-outline-info">My Resume</button></a>
                 
                 </Nav>
             </Navbar.Collapse>
